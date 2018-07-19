@@ -1006,9 +1006,15 @@ function isImage(extension) {
 });*/
 
 
-
 $('#pausar').click(function(){
-    this).stopVideo();
+      alert("video pause")
+  $('.video').each(function(){
+    $(this).stopVideo();
+    
+  });
+});
+
+	
       
   
 });
